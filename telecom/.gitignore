@@ -1,0 +1,7 @@
+*
+!README.md
+!.gitignore
+!/src/**
+!/src
+!package.json
+!yarn.lock

@@ -1,0 +1,14 @@
+{
+  "name": "thoughtly-interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
