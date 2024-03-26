@@ -1,0 +1,1028 @@
+{
+	"nodes": [
+		{
+			"id": "0fbe97a9-0c79-4ec9-8987-d7d24637843a",
+			"data": {
+				"type": "start",
+				"title": "Greeting",
+				"outcomes": [
+					"Yes",
+					"No"
+				],
+				"description": "Hi, this is Tessa, calling from Thoughtly Real Estate, am I speaking with Dave?"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 625,
+				"y": 550
+			},
+			"selected": false,
+			"timestamp": 1710947882264,
+			"positionAbsolute": {
+				"x": 245.31903730906248,
+				"y": -457.3453217380467
+			}
+		},
+		{
+			"id": "766e5af1-5fc9-4703-aa3e-2b9402354386",
+			"data": {
+				"type": "end",
+				"title": "Not Interested in Return Call",
+				"outcomes": [],
+				"description": "Thank you again for your time, if you do need anything in the future, please don't hesitate to reach out, we are always happy to help.\n\nBye for now."
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 1405,
+				"y": 2200
+			},
+			"selected": false,
+			"timestamp": 1710947882264,
+			"positionAbsolute": {
+				"x": 146.01321459967744,
+				"y": 1065.8931513694658
+			}
+		},
+		{
+			"id": "30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1",
+			"data": {
+				"type": "segment",
+				"title": "Wrong Person",
+				"outcomes": [
+					"Yes",
+					"No"
+				],
+				"description": "oh, ok. Is Dave available please?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 91,
+			"dragging": false,
+			"position": {
+				"x": 637,
+				"y": 708
+			},
+			"selected": false,
+			"timestamp": 1710947882264,
+			"positionAbsolute": {
+				"x": 637,
+				"y": 708
+			}
+		},
+		{
+			"id": "582743d8-2bd9-4c87-97fe-29beff40e176",
+			"data": {
+				"type": "end",
+				"title": "Wrong Person - Wrong Number?",
+				"outcomes": [],
+				"description": "My apologies, we were given the wrong number, Good Bye."
+			},
+			"type": "end",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 625,
+				"y": 1000
+			},
+			"selected": false,
+			"timestamp": 1710947882265,
+			"positionAbsolute": {
+				"x": 817.3698761325008,
+				"y": 290.42150757992096
+			}
+		},
+		{
+			"id": "9f57af36-ffd4-484d-b9fd-6864cace3235",
+			"data": {
+				"type": "segment",
+				"title": "Ask to speak to them.",
+				"outcomes": [
+					"Yes",
+					"No"
+				],
+				"description": "ok great, may I speak with them?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 91,
+			"dragging": false,
+			"position": {
+				"x": 905,
+				"y": 850
+			},
+			"selected": false,
+			"timestamp": 1710947882265,
+			"positionAbsolute": {
+				"x": 438.7073097806684,
+				"y": 37.918576178763004
+			}
+		},
+		{
+			"id": "83694a35-cfea-413f-886b-b49d46c399bd",
+			"data": {
+				"type": "segment",
+				"title": "Transfer to Person",
+				"outcomes": [],
+				"description": "I'll hang on the line until they are available, thank you.",
+				"segment_type": "information"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 925,
+				"y": 1000
+			},
+			"selected": false,
+			"timestamp": 1710947882265,
+			"positionAbsolute": {
+				"x": 399.340349786242,
+				"y": 192.7925748218135
+			}
+		},
+		{
+			"id": "28d29885-7318-4bea-b855-08285a66a1c0",
+			"data": {
+				"type": "segment",
+				"title": "Next Person",
+				"outcomes": [
+					"yes",
+					"no"
+				],
+				"description": "Great, this is Tessa, calling from Thoughtly Real Estate. We saw the you have been looking to purchase a property in California and wanted to follow up to see if you were still in the market to buy a new home.",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1085,
+				"y": 1300
+			},
+			"selected": false,
+			"timestamp": 1710947882265,
+			"positionAbsolute": {
+				"x": 366.56609481600526,
+				"y": 510.204364657264
+			}
+		},
+		{
+			"id": "b4f6b602-f256-4167-bbcd-739a9b05db04",
+			"data": {
+				"type": "segment",
+				"title": "Ensure Right Person",
+				"outcomes": [
+					"yes",
+					"no",
+					"doesnt want to talk"
+				],
+				"description": "Hello, is this Dave?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 91,
+			"dragging": false,
+			"position": {
+				"x": 937,
+				"y": 1138
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": 937,
+				"y": 1138
+			}
+		},
+		{
+			"id": "1c76064c-1c71-4f72-a054-9d99f3934996",
+			"data": {
+				"type": "end",
+				"title": "Not Interested",
+				"outcomes": [],
+				"description": "No worries, reach out to us if you ever decide you would like to purchase your dream home. We would be happy to assist you! Thank you for taking the time to talkand I hope you have a great rest of your day!"
+			},
+			"type": "end",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 1085,
+				"y": 1450
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": 599.5788398387144,
+				"y": 820.1655324136206
+			}
+		},
+		{
+			"id": "444b4005-3d8c-4dd6-8678-d107796d9106",
+			"data": {
+				"type": "segment",
+				"title": "Buying",
+				"outcomes": [
+					"Gives preference",
+					"says they aren't ready or interested right now"
+				],
+				"description": "Wonderful! To better understand your needs, please tell me a little about what you are looking for in a new home? For example, how many bedrooms, bathrooms or any other special must have requests",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1405,
+				"y": 1450
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": -70.82087866407642,
+				"y": 25.187944346632094
+			}
+		},
+		{
+			"id": "8b98110d-cf63-421f-af22-6e90081512d6",
+			"data": {
+				"type": "segment",
+				"title": "Location Question",
+				"outcomes": [],
+				"description": "Sounds great! We can certainly find you a home with [reference bedroom number bathroom number and must have features]. Do you have a specific area in California you would be looking to settle down in?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 1565,
+				"y": 1750
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": -267.1568806049075,
+				"y": 256.31045159855285
+			}
+		},
+		{
+			"id": "4b741cf0-2b58-4481-9de6-f8ec8fe011f2",
+			"data": {
+				"type": "segment",
+				"title": "Price Range",
+				"outcomes": [],
+				"description": "Perfect, so you are looking at [reference location area and nicely complement their choice so they feel valued].",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 1565,
+				"y": 1900
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": -378.085593446281,
+				"y": 382.41499179753134
+			}
+		},
+		{
+			"id": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"data": {
+				"type": "segment",
+				"title": "Free for Showing",
+				"outcomes": [
+					"Available",
+					"not available"
+				],
+				"description": "Great! We will set up the search for you and keep you updated, in the meanwhile I will pass your requirements to one of our experienced agents.\n\nWould you be available for a property viewing or consultation within the next few days?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1585,
+				"y": 2350
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": -584.5192787419542,
+				"y": 836.9283578021912
+			}
+		},
+		{
+			"id": "7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"data": {
+				"type": "segment",
+				"title": "Handle Objection",
+				"outcomes": [
+					"yes",
+					"no"
+				],
+				"description": "I completely understand Dave. [reference objection to setting a showing and try to get them to set a showing without being too pushy. Explain the pro's of having an in person showing and how easy it is]",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1745,
+				"y": 2500
+			},
+			"selected": false,
+			"timestamp": 1710947882272,
+			"positionAbsolute": {
+				"x": -230.6501001234538,
+				"y": 969.2270348622934
+			}
+		},
+		{
+			"id": "2fd645a3-1486-40d1-939f-388957f8e37c",
+			"data": {
+				"type": "segment",
+				"title": "Appointment Set",
+				"outcomes": [
+					"More Questions",
+					"No More Questions"
+				],
+				"description": "Perfect, The agent will set a showing time on [reference given day and time] until then do you have any other questions for me?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1745,
+				"y": 2800
+			},
+			"selected": false,
+			"timestamp": 1710947882275,
+			"positionAbsolute": {
+				"x": -328.14466109584646,
+				"y": 1231.9234219494579
+			}
+		},
+		{
+			"id": "8ccc2c17-ec1d-44c3-8355-7d601c003450",
+			"data": {
+				"type": "segment",
+				"title": "Genius",
+				"outcomes": [],
+				"segment_type": "genius"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 2365,
+				"y": 3100
+			},
+			"selected": false,
+			"timestamp": 1710947882275,
+			"positionAbsolute": {
+				"x": -698.4948014620343,
+				"y": 1549.040807254968
+			}
+		},
+		{
+			"id": "c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"data": {
+				"type": "segment",
+				"title": "Ask about question",
+				"outcomes": [],
+				"description": "Sounds great, what question can I help answer?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 2365,
+				"y": 2950
+			},
+			"selected": false,
+			"timestamp": 1710947882275,
+			"positionAbsolute": {
+				"x": -327.9166724865259,
+				"y": 1595.170424004213
+			}
+		},
+		{
+			"id": "3ae5cfd5-7181-474b-82b6-685ee05b4683",
+			"data": {
+				"type": "segment",
+				"title": "Anymore Questions",
+				"outcomes": [
+					"yes",
+					"no"
+				],
+				"description": "Do you have any other question I can answer",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 2365,
+				"y": 3250
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -691.2000000000004,
+				"y": 1690
+			}
+		},
+		{
+			"id": "4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"data": {
+				"type": "end",
+				"title": "Appointment Set End",
+				"outcomes": [],
+				"description": "It was a pleasure speaking with you and I'm excited to help you find your dream home! Have a great day!"
+			},
+			"type": "end",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 2205,
+				"y": 3400
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": 231.5443436411539,
+				"y": 1954.2795263464216
+			}
+		},
+		{
+			"id": "312a9937-efbe-4662-8c63-f0610f1934e5",
+			"data": {
+				"type": "segment",
+				"title": "Set Showing after Objection",
+				"outcomes": [],
+				"description": "Great, thank you, so when would be the best day and time for the agent to meet with you?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 1745,
+				"y": 2650
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -206.6885221471577,
+				"y": 1120.1382760065155
+			}
+		},
+		{
+			"id": "e18040a7-e772-4eb9-a705-d83d5df74291",
+			"data": {
+				"type": "segment",
+				"title": "Buying Info Objection",
+				"outcomes": [
+					"yes",
+					"no"
+				],
+				"description": "I completely understand Dave. [reference objection to return call and try to get them to continue giving information about the house they want to buy]",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1405,
+				"y": 1600
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": 17.38924578137039,
+				"y": 340.9520313103221
+			}
+		},
+		{
+			"id": "7374b605-5322-4c26-bbc1-8e772663e8d2",
+			"data": {
+				"type": "segment",
+				"title": "Communicate the reason for Calling",
+				"outcomes": [
+					"yes",
+					"no"
+				],
+				"description": "Great to meet you Dave! We saw the you have been looking to purchase a property in California. Are you still in the market for a new property?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1385,
+				"y": 1300
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -31.698879788173997,
+				"y": -235.84758199316178
+			}
+		},
+		{
+			"id": "7d84c9fb-5eb0-4e8e-850b-71cad402655b",
+			"data": {
+				"type": "segment",
+				"title": "Mortgage Question",
+				"outcomes": [
+					"Already Pre Qualified",
+					"Needs to connect to a broker to be qualified",
+					"Has cash, no need for mortgage"
+				],
+				"description": "Ok we will keep the budget of [reference given price range] in mind when looking for your perfect home. Have you already been pre-qualified for a mortgage, or would you like us to connect you with a mortgage broker to help with the financing process?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 1565,
+				"y": 2050
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -375.50134525328764,
+				"y": 498
+			}
+		},
+		{
+			"id": "b6b87f35-1f7e-475f-9457-5273bd72fd1f",
+			"data": {
+				"type": "segment",
+				"title": "Availability",
+				"outcomes": [],
+				"description": "When are you typically available? Do any particular evenings or weekends work for you?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 2045,
+				"y": 2650
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -597.9737610439023,
+				"y": 1030
+			}
+		},
+		{
+			"id": "a52d211b-ca05-4c25-9489-364ab3a5a9c5",
+			"data": {
+				"type": "segment",
+				"title": "Connect Agent",
+				"outcomes": [
+					"has questions",
+					"no more questions"
+				],
+				"description": "No problem, thank you for providing this information. We're excited to assist you in finding your dream home, and you'll hear from our agent very soon. Before we end the call, do you have any other questions for me?",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 109,
+			"dragging": false,
+			"position": {
+				"x": 2205,
+				"y": 2800
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": 49.78176674862186,
+				"y": 1200.602981361042
+			}
+		},
+		{
+			"id": "70186c6a-0112-4093-8097-55491af2e2cf",
+			"data": {
+				"type": "segment",
+				"title": "Note Mortgage Broker Need",
+				"outcomes": [],
+				"description": "No problem, I'll reach out to the broker's office and ensure they give you a call to set up an appointment time!",
+				"segment_type": "question"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 84,
+			"dragging": false,
+			"position": {
+				"x": 1745,
+				"y": 2200
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -268.69350585071777,
+				"y": 658.336601137103
+			}
+		},
+		{
+			"id": "d3ea442c-0ad4-4c7e-9216-77b71cda9f5f",
+			"data": {
+				"type": "segment",
+				"title": "Action",
+				"function": "CALENDLY",
+				"outcomes": [],
+				"segment_type": "action"
+			},
+			"type": "segment",
+			"width": 240,
+			"height": 134,
+			"dragging": false,
+			"position": {
+				"x": 2505,
+				"y": 3400
+			},
+			"selected": false,
+			"timestamp": 1710947882278,
+			"positionAbsolute": {
+				"x": -747.3685655299905,
+				"y": 1856.9618433780581
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "reactflow__edge-0fbe97a9-0c79-4ec9-8987-d7d24637843a_No-30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1",
+			"source": "0fbe97a9-0c79-4ec9-8987-d7d24637843a",
+			"target": "30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1",
+			"timestamp": 1706027572054,
+			"sourceHandle": "_No",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1_No-582743d8-2bd9-4c87-97fe-29beff40e176",
+			"source": "30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1",
+			"target": "582743d8-2bd9-4c87-97fe-29beff40e176",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_No",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1_Yes-9f57af36-ffd4-484d-b9fd-6864cace3235",
+			"source": "30a8fa0d-2ff4-4cf0-8d6d-9aa81d4697c1",
+			"target": "9f57af36-ffd4-484d-b9fd-6864cace3235",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_Yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-9f57af36-ffd4-484d-b9fd-6864cace3235_No-582743d8-2bd9-4c87-97fe-29beff40e176",
+			"source": "9f57af36-ffd4-484d-b9fd-6864cace3235",
+			"target": "582743d8-2bd9-4c87-97fe-29beff40e176",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_No",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-9f57af36-ffd4-484d-b9fd-6864cace3235_Yes-83694a35-cfea-413f-886b-b49d46c399bd",
+			"source": "9f57af36-ffd4-484d-b9fd-6864cace3235",
+			"target": "83694a35-cfea-413f-886b-b49d46c399bd",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_Yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-83694a35-cfea-413f-886b-b49d46c399bd_-b4f6b602-f256-4167-bbcd-739a9b05db04",
+			"source": "83694a35-cfea-413f-886b-b49d46c399bd",
+			"target": "b4f6b602-f256-4167-bbcd-739a9b05db04",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-b4f6b602-f256-4167-bbcd-739a9b05db04_no-83694a35-cfea-413f-886b-b49d46c399bd",
+			"source": "b4f6b602-f256-4167-bbcd-739a9b05db04",
+			"target": "83694a35-cfea-413f-886b-b49d46c399bd",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_no",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-b4f6b602-f256-4167-bbcd-739a9b05db04_yes-28d29885-7318-4bea-b855-08285a66a1c0",
+			"source": "b4f6b602-f256-4167-bbcd-739a9b05db04",
+			"target": "28d29885-7318-4bea-b855-08285a66a1c0",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-b4f6b602-f256-4167-bbcd-739a9b05db04_doesnt want to talk-1c76064c-1c71-4f72-a054-9d99f3934996",
+			"source": "b4f6b602-f256-4167-bbcd-739a9b05db04",
+			"target": "1c76064c-1c71-4f72-a054-9d99f3934996",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_doesnt want to talk",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-28d29885-7318-4bea-b855-08285a66a1c0_Buy-444b4005-3d8c-4dd6-8678-d107796d9106",
+			"source": "28d29885-7318-4bea-b855-08285a66a1c0",
+			"target": "444b4005-3d8c-4dd6-8678-d107796d9106",
+			"timestamp": 1706026845805,
+			"sourceHandle": "_Buy",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-8b98110d-cf63-421f-af22-6e90081512d6_-4b741cf0-2b58-4481-9de6-f8ec8fe011f2",
+			"source": "8b98110d-cf63-421f-af22-6e90081512d6",
+			"target": "4b741cf0-2b58-4481-9de6-f8ec8fe011f2",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-9827fcff-d323-4e86-905c-3695f8ce3cf0_Rejects Call Back-7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"source": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"target": "7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"timestamp": 1706027571548,
+			"sourceHandle": "_Rejects Call Back",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-9827fcff-d323-4e86-905c-3695f8ce3cf0_Agree Return Call-2fd645a3-1486-40d1-939f-388957f8e37c",
+			"source": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"target": "2fd645a3-1486-40d1-939f-388957f8e37c",
+			"timestamp": 1706026912511,
+			"sourceHandle": "_Agree Return Call",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-2fd645a3-1486-40d1-939f-388957f8e37c_More Questions-c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"source": "2fd645a3-1486-40d1-939f-388957f8e37c",
+			"target": "c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_More Questions",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-c6e6fa8d-c763-4047-b214-5ff14858aec2_-8ccc2c17-ec1d-44c3-8355-7d601c003450",
+			"source": "c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"target": "8ccc2c17-ec1d-44c3-8355-7d601c003450",
+			"timestamp": 1706027572076,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-2fd645a3-1486-40d1-939f-388957f8e37c_No More Questions-4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"source": "2fd645a3-1486-40d1-939f-388957f8e37c",
+			"target": "4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"timestamp": 1706027572077,
+			"sourceHandle": "_No More Questions",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-8ccc2c17-ec1d-44c3-8355-7d601c003450_-3ae5cfd5-7181-474b-82b6-685ee05b4683",
+			"source": "8ccc2c17-ec1d-44c3-8355-7d601c003450",
+			"target": "3ae5cfd5-7181-474b-82b6-685ee05b4683",
+			"timestamp": 1706027572077,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7e354bea-78f5-47ef-95a1-bbcceb630db4_yes-312a9937-efbe-4662-8c63-f0610f1934e5",
+			"source": "7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"target": "312a9937-efbe-4662-8c63-f0610f1934e5",
+			"timestamp": 1706027572077,
+			"sourceHandle": "_yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-312a9937-efbe-4662-8c63-f0610f1934e5_-2fd645a3-1486-40d1-939f-388957f8e37c",
+			"source": "312a9937-efbe-4662-8c63-f0610f1934e5",
+			"target": "2fd645a3-1486-40d1-939f-388957f8e37c",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-444b4005-3d8c-4dd6-8678-d107796d9106_Gives preference-8b98110d-cf63-421f-af22-6e90081512d6",
+			"source": "444b4005-3d8c-4dd6-8678-d107796d9106",
+			"target": "8b98110d-cf63-421f-af22-6e90081512d6",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_Gives preference",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-444b4005-3d8c-4dd6-8678-d107796d9106_says they aren't ready or interested right now-e18040a7-e772-4eb9-a705-d83d5df74291",
+			"source": "444b4005-3d8c-4dd6-8678-d107796d9106",
+			"target": "e18040a7-e772-4eb9-a705-d83d5df74291",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_says they aren't ready or interested right now",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-e18040a7-e772-4eb9-a705-d83d5df74291_yes-8b98110d-cf63-421f-af22-6e90081512d6",
+			"source": "e18040a7-e772-4eb9-a705-d83d5df74291",
+			"target": "8b98110d-cf63-421f-af22-6e90081512d6",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-e18040a7-e772-4eb9-a705-d83d5df74291_no-766e5af1-5fc9-4703-aa3e-2b9402354386",
+			"source": "e18040a7-e772-4eb9-a705-d83d5df74291",
+			"target": "766e5af1-5fc9-4703-aa3e-2b9402354386",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_no",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-0fbe97a9-0c79-4ec9-8987-d7d24637843a_Yes-7374b605-5322-4c26-bbc1-8e772663e8d2",
+			"source": "0fbe97a9-0c79-4ec9-8987-d7d24637843a",
+			"target": "7374b605-5322-4c26-bbc1-8e772663e8d2",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_Yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7374b605-5322-4c26-bbc1-8e772663e8d2_yes-444b4005-3d8c-4dd6-8678-d107796d9106",
+			"source": "7374b605-5322-4c26-bbc1-8e772663e8d2",
+			"target": "444b4005-3d8c-4dd6-8678-d107796d9106",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-28d29885-7318-4bea-b855-08285a66a1c0_yes-444b4005-3d8c-4dd6-8678-d107796d9106",
+			"source": "28d29885-7318-4bea-b855-08285a66a1c0",
+			"target": "444b4005-3d8c-4dd6-8678-d107796d9106",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_yes",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-28d29885-7318-4bea-b855-08285a66a1c0_no-1c76064c-1c71-4f72-a054-9d99f3934996",
+			"source": "28d29885-7318-4bea-b855-08285a66a1c0",
+			"target": "1c76064c-1c71-4f72-a054-9d99f3934996",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_no",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7374b605-5322-4c26-bbc1-8e772663e8d2_no-1c76064c-1c71-4f72-a054-9d99f3934996",
+			"source": "7374b605-5322-4c26-bbc1-8e772663e8d2",
+			"target": "1c76064c-1c71-4f72-a054-9d99f3934996",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_no",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-4b741cf0-2b58-4481-9de6-f8ec8fe011f2_-7d84c9fb-5eb0-4e8e-850b-71cad402655b",
+			"source": "4b741cf0-2b58-4481-9de6-f8ec8fe011f2",
+			"target": "7d84c9fb-5eb0-4e8e-850b-71cad402655b",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7d84c9fb-5eb0-4e8e-850b-71cad402655b_Already Pre Qualified-9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"source": "7d84c9fb-5eb0-4e8e-850b-71cad402655b",
+			"target": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"timestamp": 1706027572078,
+			"sourceHandle": "_Already Pre Qualified",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-9827fcff-d323-4e86-905c-3695f8ce3cf0_Available-b6b87f35-1f7e-475f-9457-5273bd72fd1f",
+			"source": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"target": "b6b87f35-1f7e-475f-9457-5273bd72fd1f",
+			"timestamp": 1706027618673,
+			"sourceHandle": "_Available",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-9827fcff-d323-4e86-905c-3695f8ce3cf0_not available-7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"source": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"target": "7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"timestamp": 1706027635159,
+			"sourceHandle": "_not available",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7e354bea-78f5-47ef-95a1-bbcceb630db4_no-a52d211b-ca05-4c25-9489-364ab3a5a9c5",
+			"source": "7e354bea-78f5-47ef-95a1-bbcceb630db4",
+			"target": "a52d211b-ca05-4c25-9489-364ab3a5a9c5",
+			"timestamp": 1706027861597,
+			"sourceHandle": "_no",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-a52d211b-ca05-4c25-9489-364ab3a5a9c5_-c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"source": "a52d211b-ca05-4c25-9489-364ab3a5a9c5",
+			"target": "c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"timestamp": 1706027866329,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-a52d211b-ca05-4c25-9489-364ab3a5a9c5_has questions-c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"source": "a52d211b-ca05-4c25-9489-364ab3a5a9c5",
+			"target": "c6e6fa8d-c763-4047-b214-5ff14858aec2",
+			"timestamp": 1706027916334,
+			"sourceHandle": "_has questions",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-b6b87f35-1f7e-475f-9457-5273bd72fd1f_-2fd645a3-1486-40d1-939f-388957f8e37c",
+			"source": "b6b87f35-1f7e-475f-9457-5273bd72fd1f",
+			"target": "2fd645a3-1486-40d1-939f-388957f8e37c",
+			"timestamp": 1706028212705,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-a52d211b-ca05-4c25-9489-364ab3a5a9c5_no more questions-4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"source": "a52d211b-ca05-4c25-9489-364ab3a5a9c5",
+			"target": "4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"timestamp": 1706028248764,
+			"sourceHandle": "_no more questions",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7d84c9fb-5eb0-4e8e-850b-71cad402655b_Needs to connect to a broker to be qualified-70186c6a-0112-4093-8097-55491af2e2cf",
+			"source": "7d84c9fb-5eb0-4e8e-850b-71cad402655b",
+			"target": "70186c6a-0112-4093-8097-55491af2e2cf",
+			"timestamp": 1706028346604,
+			"sourceHandle": "_Needs to connect to a broker to be qualified",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-70186c6a-0112-4093-8097-55491af2e2cf_-9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"source": "70186c6a-0112-4093-8097-55491af2e2cf",
+			"target": "9827fcff-d323-4e86-905c-3695f8ce3cf0",
+			"timestamp": 1706028365649,
+			"sourceHandle": "_",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-7d84c9fb-5eb0-4e8e-850b-71cad402655b_Has cash, no need for mortgage-766e5af1-5fc9-4703-aa3e-2b9402354386",
+			"source": "7d84c9fb-5eb0-4e8e-850b-71cad402655b",
+			"target": "766e5af1-5fc9-4703-aa3e-2b9402354386",
+			"timestamp": 1706563943952,
+			"sourceHandle": "_Has cash, no need for mortgage",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-3ae5cfd5-7181-474b-82b6-685ee05b4683_no-4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"source": "3ae5cfd5-7181-474b-82b6-685ee05b4683",
+			"target": "4467b1f8-bddb-44fc-af28-2278b53c1210",
+			"timestamp": 1706567594476,
+			"sourceHandle": "_no",
+			"targetHandle": null
+		},
+		{
+			"id": "reactflow__edge-3ae5cfd5-7181-474b-82b6-685ee05b4683_yes-d3ea442c-0ad4-4c7e-9216-77b71cda9f5f",
+			"source": "3ae5cfd5-7181-474b-82b6-685ee05b4683",
+			"target": "d3ea442c-0ad4-4c7e-9216-77b71cda9f5f",
+			"timestamp": 1706567964406,
+			"sourceHandle": "_yes",
+			"targetHandle": null
+		}
+	]
+}
