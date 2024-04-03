@@ -16,10 +16,32 @@ As you know, Thoughtly allows users to build visual workflows, represented as [d
 
 The file `workflow.json` contains a JSON representation of a workflow. The file `workflow.png` is also provided to show you what the workflow looks like visually on the Thoughtly platform.
 
-Write a function that reads `workflow.json` and transforms the JSON into a textual system prompt for a language model. The zero-shot prompt should be a single string that is ready to be sent to a model for completion.
+Write a function that reads `workflow.json` and transforms the JSON into a textual **system prompt** for a language model. The zero-shot prompt should be a single string that is ready to be sent to a model for completion. When prompting a language model of your choice, the conversation message array should be similar to the following:
 
-To test your function, you should print the output of the function to the console and use it to prompt a language model of your choice. The first output from the language model should be nothing but the text in the start node of the workflow, the user (you) should then be able to continue the workflow by responding naturally to the model's output. Continue until the workflow is complete without skipping, repeating, or incorrectly following any steps from the JSON.
+```json
+{
+	"messages": [
+		{
+			"role": "system",
+			"content": "... your prompt ..."
+		},
+		{
+			"role": "ai",
+			"content": "Hi, this is Tessa, calling from Thoughtly Real Estate, am I speaking with Dave?" // model output
+		},
+		{
+			"role": "user",
+			"content": "Yes, this is Dave." // your response
+		},
+		... the conversation continues ...
+	]
+}
+```
+
+To test your function, you should print the output of the function to the console and use it to prompt a language model of your choice. Software like [Ollama](https://ollama.com/) is great for this. You can also use an API like OpenAI's GPT-3, but you will need to have an API key.
+
+The first output from the language model should be nothing but the text in the start node of the workflow, the user (you) should then be able to continue by responding naturally to the model's output. Continue until the workflow is complete without skipping, repeating, or incorrectly following any steps from the JSON workflow.
 
 ## Part B
 
-Zero-shot prompting is great for writing college essays, but repetitive prompts with similar structures can be more efficiently handled with a fine-tuned model. Based on your output from Part A, write a short response on how you would fine-tune a language model to complete the workflow more efficiently, with higher accuracy, and while decreasing latency (time to first byte).
+Zero-shot prompting is great for writing college essays, but repetitive prompts with similar structures can be more efficiently handled with a fine-tuned model. Based on your system prompt and message array from Part A, write a short response on how you would fine-tune a language model to complete the workflow more efficiently, with higher accuracy, and while decreasing latency (time to first byte).
